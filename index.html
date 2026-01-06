@@ -123,9 +123,9 @@
           <button class="btn primary" type="submit" style="width:100%;">Sign in</button>
           <div id="loginMsg" style="color:#fca5a5;font-size:12px;min-height:16px;"></div>
           <div style="font-size:12px;opacity:.8;line-height:1.4">
-            <div><b>Cycle Counter</b>: <code>matt</code>, <code>jess</code> ,<code>derek</code>  / <code>pass</code></div>
-            <div><b>Investigator</b>: <code>matt_i</code>, <code>jess_i</code> , <code>derek_i</code>  / <code>pass</code></div>
-            <div><b>Supervisor</b>: <code>brad_s</code>, <code>jess_s</code> / <code>pass</code></div>
+            <div><b>Cycle Counter</b>: <code>matt</code>, <code>david</code>, <code>kevin</code>, <code>sullivan</code>, <code>derek</code> / <code>pass</code></div>
+            <div><b>Investigator</b>: <code>brad</code>, <code>dan</code>, <code>jess</code> / <code>pass</code></div>
+            <div><b>Supervisor</b>: <code>max</code>, <code>brad_s</code>, <code>jess_s</code> / <code>pass</code></div>
           </div>
         </div>
       </div>
@@ -471,15 +471,19 @@
 
     const USERS = {
       // Cycle Counters
-      " matt": { name:"Matt Sullivan",  role:ROLES.COUNTER, password:"pass" },
+      "matt":     { name:"Matt Westerfer", role:ROLES.COUNTER, password:"pass" },
+      "david":    { name:"David Lucas",    role:ROLES.COUNTER, password:"pass" },
+      "kevin":    { name:"Kevin Green",    role:ROLES.COUNTER, password:"pass" },
+      "sullivan": { name:"Matt Sullivan",  role:ROLES.COUNTER, password:"pass" },
       "derek":    { name:"Derek Batista",  role:ROLES.COUNTER, password:"pass" },
-      "jess": { name:"Jessica Ernest", role:ROLES.COUNTER, password:"pass" },
+
       // Investigators
-      "jess_i": { name:"Jessica Ernest", role:ROLES.INVESTIGATOR, password:"pass" },
-      " matt_i": { name:"Matt Sullivan",  role:ROLES.INVESTIGATOR, password:"pass" },
-      "derek_i":    { name:"Derek Batista",  role:ROLES.INVESTIGATOR, password:"pass" },
+      "brad": { name:"Brad Ballard", role:ROLES.INVESTIGATOR, password:"pass" },
+      "dan":  { name:"Dan Kieu",     role:ROLES.INVESTIGATOR, password:"pass" },
+      "jess": { name:"Jessica Ernest", role:ROLES.INVESTIGATOR, password:"pass" },
 
       // Supervisors
+      "max":    { name:"Max Mann",       role:ROLES.SUPERVISOR, password:"pass" },
       "brad_s": { name:"Brad Ballard",   role:ROLES.SUPERVISOR, password:"pass" },
       "jess_s": { name:"Jessica Ernest", role:ROLES.SUPERVISOR, password:"pass" },
     };
