@@ -8,4 +8,4 @@ module.exports = async (req, res) => {
     req.headers["x-sync-token"] = String(req.query.token);
   }
   return driveSync(req, res);
-};
+} ;
